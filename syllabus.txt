@@ -1,0 +1,6 @@
+Syllabus of MTE 1 Exam: Introduction to big data: definition, need and evolution of BDA, applications of Big Data,
+Big Data Analytics: Analysing big data, sources of big data, characteristics of big data (4 V’s), Drivers of BDA, types of data, structured vs. unstructured data, data marts, Case study based tutorial, Differences between traditional DWDM and BDA, Limitations of traditional RDBMSs to store and analyse Big Data
+Data science, definition and concepts, data scientists: key competencies and characteristics of data scientists,
+Big Data Analytics Ecosystem, State of the Practice in Analytics: Data Analytics Lifecycle and discussions, Roles for a Successful Analytics Project; Case Study to apply the data analytics lifecycle, Analytical databases and DW appliances; Hadoop distributions – Comparing various BDA tools
+Analyzing and Exploring the Data: Challenges when managing and analyzing big data, The role of Data Virtualization in a Big Data environment; Why to visualize data. Statistics for Model Building and Evaluation: Statistics in the Analytic Lifecycle,
+K-means clustering, Association Rules, Linear Regression, Logistic Regression, Naïve Bayesian Classifiers
