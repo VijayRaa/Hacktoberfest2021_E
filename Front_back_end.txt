@@ -1,0 +1,31 @@
+Agenda : 
+    > HTML5
+    > CSS3
+    > Python connectivity via cgi
+    > interface > control server or desktop via website
+
+
+    HTML5 : It is for documentation just like ms office accessible through web server over the internet
+
+* DVWA - for hacking
+
+
+    HTML ka khali page kya serve karta hai?
+    Ans. Title
+
+    Head tag is used to handle behaviour of web server and interact with other languages.
+
+    meta tag : bina click kare page change ho jata hai after some time.
+    <meta http-equiv="refresh" content="3;url=https://www.google.com" />
+
+    iframe : to include another page in your current page
+
+    Q. Wy google don't show their content in iframe?
+        How to do this.
+
+        Task : movable iframe and change size via mouse
+
+
+## CGI - Task
+
+    
