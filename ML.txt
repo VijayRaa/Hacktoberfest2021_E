@@ -1,0 +1,276 @@
+git log
+git reset --hard  __________
+git checkout -b data_processing (make a new branch)
+git branch
+
+git push origin data_processing (to push to a specific branch)
+
+git checkout master (To switch to a branch)
+
+git reset --hard ____________  (to go on any commit)
+
+Task : Transfer files through sockets
+
+
+Task :
+Ready my ubuntu instance in mumbai 
+
+vi requirements.txt
+sudo pip3 install -r requirements.txt
+
+jupyter-notebook --no-browser --ip=0.0.0.0 --port=8888 &>/dev/null &
+
+
+
+
+
+--> Numpy                   >
+--> pandas                    --> matLab
+--> seaborn & matplotlib    >
+
+
+
+python req.---> tuple, list, iteration, string
+
+
+
+Numpy (Numerical Python)  --> advanced version---> Theano----->Tenserflow
+{Can do basic operations}
+    
+    array -store 
+
+    b=numpy.array([[],[],[],[]])
+    b.reshape(enter dimensions)
+    b*2
+    b**3
+    numpy.zeros((3,6))
+
+    Task1 : take rows and columns input from user and tell all possible combinations of 2d array
+    Task2 : Generate 3x2 and 2x5 2d array with random element and save this data into 2 seperate file.
+    slashlinuxcode.blogspot.in
+
+Data Processessing and Visualization
+
+    MPLD3 . matplotlib, Seaborn , gnuplot , dash .
+
+
+
+Dataset 
+    : Kaggle    (Tests related to datasets)
+    : UCI
+    : summer19
+
+
+        Supervised<---- ML---->Reinforcement (X)
+                        |   
+                        |
+                        |
+                    Unsupervised
+
+
+Supervised : 
+(Classification and regression)
+
+                        Train
+                         / \
+                        /   \
+                       /     \
+                Feature      Label 
+
+
+            Weight        Texture    
+Row 1 
+
+
+
+
+# Classification Methods we are using
+KNN                 >
+SVM                     >
+Desision Tree               >
+Naive Bayes                     >       Scikit Learn (ML Framework)
+Random Forest               >
+#Lion                   >
+#Me                 >
+
+pip3 install scipy sklearn
+
+
+
+**Decision Tree : -----Algorithm
+(Classifier)            |
+                        |   
+                       ID3
+                       CART 
+
+
+graphvizard : To check which attribute decision tree kept on top to give answer
+
+#Use of DT :
+Cancer Prediction
+House-Price Prediction
+Flowers Prediction
+Numbers Prediction
+
+
+ > Number of answer has no link with number of columns
+   It is only linked with number of rows
+
+ > Data Seperation: Train machine with 90% data and keep 10% for testing
+        To do this we use train_test_split from sklear.model_selection.
+        It gives output in multiple categories depending upon the give arguments.
+
+        ex- train_data,test_data,label_train,label_test=train_test_split(features,label,test_size=0.1)
+            It takes random 10% data.
+        
+ Task : Train in another machine and predict from another machine using socket programming
+
+
+
+** KNN (K-Nearest Neighbour)
+    >NOT Recommended for large datasets since it will take lot of time.
+        it doesn't perform well on large datasets.
+    >Recommended to take k value 'odd' and not 1.
+    > default value of k is 5.
+    >Why not even-- Read from KNN website
+    >It can be used for Regression.
+
+
+** SVM (Support vector Machine) (Used as Classifier)
+    or SVR (Support vector regression) (Used as Regression)
+
+    > in scikit
+    > Read about gamma arg and kernel arg.
+
+** Random Forest
+
+
+
+** Naive Bayes
+
+Task: python code to fetch top 10 emails
+        from
+        subject
+        body
+
+        To access email server, protocol = smtp (tcp(25))
+                                            smtps(465/513)
+
+        > import smtplib
+        MUA -- jismai email login karenge
+        (Mail user agent)
+        MTA -- (25 port generally)
+        (Mail transfer agent)
+        MDA -- 
+        (Mail delivery agent)
+
+        pop -- 110      (download and play)
+        imap -- 14.3    (streaming)
+        pops -- 994
+        imaps -- 993
+
+
+
+
+>>>>> upwork website for Projects
+
+
+
+
+
+google Brain Team 
+        contribute in opensource
+
+google udacity 
+
+linkedin
+
+
+
+Task1: graph
+Task2: Html
+Task3: KNN and DT   
+        on IRIS and Cancer 
+        Predict and plot graph  
+        take common %age and k value
+    
+
+
+Regression:
+
+        Linear_Regression : y=mx+c
+        Polynomial_Regression : 
+        Logistic_Regression : 
+
+% slashml.blogspot.com
+
+
+
+Data-Engineering -- (Data Mining)
+    Data Pre-Processessing
+        > Clean
+        > Recycle
+        > AutoFill
+    
+    >> Imputer : use to replace numerical missing value
+                It is in sklearn.preprocessing
+
+    >> LabelEncoder : used to give numerical label to strings
+                It is in sklearn.preprocessing
+                Drawback: it converts in 0,1,2 so for numerical calculations, it becomes partial and discriminate/
+
+    >> OneHotEncoder : encoding in such a way that numerical value of every attribute remain same but representation changes so that we can distinguish between them as well as problem of LabelEncoder gets solved.
+                It is in sklearn.preprocessing
+                > In pandas (similar --> get_dummies(<Column name>))
+
+    >> Feature Scaling : 
+
+    
+?D = imputer main first fit then transform why not directly fit and transform.
+
+
+
+Project : Platform as a service for AI 
+
+
+
+
+
+
+
+
+
+
+
+
+Open Source Contribution :
+
+        options : coderzone: python
+                  non coderzone : fedora
+
+        IRC Channel
+            hexchat(software to connect to any IRC) or riot 
+
+
+## Project :: Product Recommendation
+
+
+IMP_in Supervised
+        $ Autofill
+        $ Label encoding
+        $ OneHotEncoding
+        $ Training testing  
+        $ Feature Scalling
+
+
+
+## Computer Vision     
+
+Task : make a program to check the major color of an image
+Task : Image operations 
+        > compress
+        > decompress
+        > zoom (a selected area)
+        > zoom (not the selected area)
+        
+
